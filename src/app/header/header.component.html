@@ -19,10 +19,10 @@
     </div>
   </div>
   
-  <!-- Overlay arka plan -->
+
   <div class="burger-overlay" [ngClass]="{ 'open': isMenuOpen }" (click)="closeMenu()"></div>
   
-  <!-- Çapraz şerit menü -->
+
   <div class="burger-strip" [ngClass]="{ 'open': isMenuOpen }">
 
     <div class="logo">
@@ -35,7 +35,7 @@
     <a routerLink="/contact" (click)="closeMenu()">Contact</a>
   </div>
   
-  <!-- 🍔 Burger button EN SONA alındı -->
+
   <button class="burger-btn" (click)="toggleMenu()">
     <i [ngClass]="isMenuOpen ? 'fa fa-times' : 'fa fa-bars'"></i>
   </button>
